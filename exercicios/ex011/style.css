@@ -1,0 +1,27 @@
+body {
+    background-color: aqua;
+
+}
+h1 {
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+ul {
+    text-decoration: overline;
+}
+audio {
+   background-color: brown;
+  justify-content: center;
+   border-style: groove;
+   border-color: mediumvioletred;
+   
+}
+button {
+    background-color: chartreuse;
+   
+}
+div {
+    text-align: center;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+    <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplismente aumente e diminua o tamanho do navegador. </p>
+    
+      <div>
+        <picture>
+           <source media="(max-width: 750px)" srcset="imagens/paisagem-p.png">
+            <source media="(max-width: 1050px)" srcset="imagens/paisagem-m.png">
+            <img src="imagens/paisagem-g.png" alt="foto G">
+        </picture>
+      </div>
+   
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+  
+    <p>
+      <audio src="midia/003.mp3" controls  ></audio>
+    </p>
+
+ <p>
+   <a href="livros/REPERTORIO TIPO 1 - 20231215_092851.pdf" download="REPERTORIO TIPO 1 - 20231215_092851.pdf" type="application/pdf" target="_blank" rel="external"><button>Baixar repertório em PDF</button></a>
+ </p>
+
+   
+</body>
+</html>
