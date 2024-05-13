@@ -26,18 +26,18 @@ header {
     text-align: center;
 }
 
-header h1 {
+header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
     font-family: var(--fonte2);
     font-size: 10vw;
 }
 
-header p {
+header > p {
     padding-bottom: 50px;
 }
 
-header a, footer a {
+header > a, footer > a {
     color: white;
     text-decoration: none;
     font-weight: bolder;
@@ -45,10 +45,25 @@ header a, footer a {
 header a:hover, footer a:hover {
     text-decoration: underline;
 }
+section > p {
+    padding-bottom: 2em;
+}
+
+section#img01 {
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+    
+}
+
+section#img02 {
+    background-image: url('../imagens/background002.jpg');
+    background-position: right center;
+    
+}
 
 section {
     padding-top: 10vw;
-    padding-bottom: 10vw;
+    padding-bottom: 5vw;
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--fonte3);
@@ -63,12 +78,16 @@ section.normal {
 section.imagem {
     background-color: rgba(32, 32, 32, 0.61);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.507);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
-section.imagem p {
+section.imagem > p {
     background-color: rgba(0, 0, 0, 0.363);
     display: inline-block;
     padding: 5px;
+    text-shadow: 2px 2px 0px black;
 }
 
 footer {
